@@ -1,0 +1,82 @@
+
+.chatpart {
+    margin: 5px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    border: 2px solid #dedede;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 10px;
+  
+
+}
+
+.chatfield {
+    margin: 5px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    border: 2px solid #dedede;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.chatpart::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.right{
+   float:right;
+}
+.anyclass {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #343a40;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+}
+
+/* Handle on hover
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+} */
+
+.chatpart:nth-child(even) {
+    border-color: #ccc;
+    color: white;
+    background-color: #343a40;
+   
+ 
+}
+
